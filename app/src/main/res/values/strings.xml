@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dynamic Multi Tabs</string>
+    <string name="num_of_tabs">Num Of Tabs</string>
+    <string name="go">GOOO !!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
