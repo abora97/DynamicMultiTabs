@@ -25,9 +25,8 @@ public class HomeFragmentAdapter extends RecyclerView.Adapter<HomeFragmentAdapte
 
     @Override
     public MyHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-     //   View inflate = LayoutInflater.from(context).inflate(R.layout.item_rec_home, viewGroup, false);
-     //   return new MyHolder(inflate);
-        return null;
+        View inflate = LayoutInflater.from(context).inflate(R.layout.item_rec_home, viewGroup, false);
+        return new MyHolder(inflate);
     }
 
     @Override
@@ -48,8 +47,8 @@ public class HomeFragmentAdapter extends RecyclerView.Adapter<HomeFragmentAdapte
         private TextView textView;
         public MyHolder(View itemView) {
             super(itemView);
-//            imageView=itemView.findViewById(R.id.image_home_rec);
-//            textView=itemView.findViewById(R.id.text_home_rec);
+            imageView=itemView.findViewById(R.id.image_home_rec);
+            textView=itemView.findViewById(R.id.text_home_rec);
         }
     }
 }
